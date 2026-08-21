@@ -13,7 +13,7 @@ export const DOWNLOAD_PLATFORMS: DownloadPlatform[] = [
     releaseDate: 'Latest Stable Build',
     requirements: 'macOS 12.0 Monterey or higher',
     checksum: 'sha256: 4c43da0cf6adf3adc4d182b839e8873f7f0a20894580afcfc3402183ae8acb2e',
-    downloadUrl: '/downloads/FrameGrab-Standalone-Apple-Silicon.dmg',
+    downloadUrl: 'https://github.com/mohammadazam-cyber/framegrab/releases/latest/download/FrameGrab-Standalone-Apple-Silicon.dmg',
     iconType: 'apple',
     features: [
       'Hardware-accelerated HEVC/ProRes decoding',

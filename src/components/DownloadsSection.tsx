@@ -14,7 +14,7 @@ export const DownloadsSection: React.FC<DownloadsSectionProps> = ({
 }) => {
   const handleDownloadClick = (platform: DownloadPlatform) => {
     if (platform.status === 'available') {
-      if (platform.downloadUrl?.startsWith('/')) {
+      if (platform.downloadUrl && !platform.downloadUrl.startsWith('#')) {
         const link = document.createElement('a');
         link.href = platform.downloadUrl;
         link.download = platform.downloadUrl.split('/').pop() || 'FrameGrab.dmg';
