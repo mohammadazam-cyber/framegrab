@@ -70,6 +70,16 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
               <span>Instant Demuxing</span>
             </div>
           </div>
+
+          <div className="mt-7 flex items-baseline justify-center gap-2 text-[#5E6670] dark:text-[#85898B]">
+            <span className="text-xs font-mono uppercase tracking-[0.18em]">Build by</span>
+            <span
+              className="text-3xl sm:text-4xl text-[#111315] dark:text-[#F1F0EA] -rotate-2"
+              style={{ fontFamily: '"Brush Script MT", "Segoe Script", cursive' }}
+            >
+              Azam Khan
+            </span>
+          </div>
         </div>
       </div>
     </section>
