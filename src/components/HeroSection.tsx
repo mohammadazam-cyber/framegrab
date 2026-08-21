@@ -74,7 +74,7 @@ export const HeroSection: React.FC<HeroSectionProps> = () => {
           <div className="mt-7 flex items-baseline justify-center gap-2 text-[#5E6670] dark:text-[#85898B]">
             <span className="text-xs font-mono uppercase tracking-[0.18em]">Build by</span>
             <span
-              className="text-2xl sm:text-3xl text-[#111315] dark:text-[#F1F0EA] -rotate-2"
+              className="text-xl sm:text-2xl text-[#111315] dark:text-[#F1F0EA] -rotate-2"
               style={{ fontFamily: '"Brush Script MT", "Segoe Script", cursive' }}
             >
               Azam Khan
