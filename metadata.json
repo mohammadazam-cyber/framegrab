@@ -1,0 +1,6 @@
+{
+  "name": "FrameGrab - Minimal Video Downloader",
+  "description": "A sleek, minimal video downloader landing page for FrameGrab featuring multi-platform downloads and upcoming capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
