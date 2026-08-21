@@ -2,12 +2,6 @@
 <img width="1200" alt="FrameGrab website preview" src="./assets/gitbanner.png" />
 </div>
 
-# Run and deploy your AI Studio app
-
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/b8b46345-c5df-405e-b6dd-1caa81b30a2b
-
 ## Run Locally
 
 **Prerequisites:**  Node.js
